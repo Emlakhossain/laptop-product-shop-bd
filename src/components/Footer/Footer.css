@@ -1,0 +1,12 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    height: 200px;
+}
+
+.footer-container h4 {
+    margin: 0;
+}
