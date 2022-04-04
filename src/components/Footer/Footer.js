@@ -7,8 +7,6 @@ const Footer = () => {
             <div>
                 <h4>WELCOME TO LAPTOP ZONE</h4>
                 <h4>Bangladesh</h4>
-            </div>
-            <div>
                 <h4>Address:</h4>
                 <h4>GULSHAN-2 DHAKA-1212, BANGLADESH</h4>
             </div>
