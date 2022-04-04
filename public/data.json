@@ -1,38 +1,44 @@
 [
     {
-        "month": "Mar",
-        "investment": 100000,
-        "sell": 241,
-        "revenue": 10401
+        "id": 1,
+        "name": "huawei pro avs21 Laptop",
+        "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp/laptops/img-0224/X-Pro-2022.png",
+        "rating": 4.8,
+        "price": 106401
     },
     {
-        "month": "Apr",
-        "investment": 200000,
-        "sell": 423,
-        "revenue": 24500
+        "id": 2,
+        "name": "Apple M31 Pro Laptop",
+        "img": "https://icdn.digitaltrends.com/image/digitaltrends/macbook-pro-2021-16.jpg",
+        "rating": 4,
+        "price": 84500
     },
     {
-        "month": "May",
-        "investment": 500000,
-        "sell": 726,
-        "revenue": 67010
+        "id": 3,
+        "name": "Apple X110 Laptop",
+        "img": "https://i.pcmag.com/imagery/roundups/02naaOkVLe7DIiejFUyDPJp-31..v1588859331.jpg",
+        "rating": 5,
+        "price": 67010
     },
     {
-        "month": "Jun",
-        "investment": 500000,
-        "sell": 529,
-        "revenue": 40405
+        "id": 4,
+        "name": "Asus MDN Laptop",
+        "img": "https://www.mitechbox.com/wp-content/uploads/2021/11/asus-laptop.jpg",
+        "rating": 4.7,
+        "price": 40405
     },
     {
-        "month": "Jul",
-        "investment": 600000,
-        "sell": 601,
-        "revenue": 50900
+        "id": 5,
+        "name": "DELL 210 Laptop",
+        "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3319&hei=2405&qlt=100,0&resMode=sharp2&size=3319,2405",
+        "rating": 4.3,
+        "price": 45900
     },
     {
-        "month": "Aug",
-        "investment": 700000,
-        "sell": 670,
-        "revenue": 61000
+        "id": 6,
+        "name": "Microsoft 2021 Laptop",
+        "img": "https://fdn.gsmarena.com/imgroot/news/21/09/surface-laptops/-1200/gsmarena_001.jpg",
+        "rating": 5,
+        "price": 61000
     }
 ]

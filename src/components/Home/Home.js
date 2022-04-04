@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import img from '../../img/header-img.png';
+import CustomerReview from '../CustomerReview/CustomerReview';
 import './Home.css';
 
 const Home = () => {
+    const [reviews, setReviews] = useState([]);
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
+
     return (
         <div>
             <div className='home-container'>
@@ -17,7 +25,15 @@ const Home = () => {
             </div>
 
             <div>
-                <h2>Customer Review</h2>
+                <h2 className='customer-review-heading'>Customer Review:</h2>
+                <div className='rewiew-container'>
+                    {
+                        reviews.map(review => <CustomerReview
+                            key={review.id}
+                            review={review}
+                        ></CustomerReview>)
+                    }
+                </div>
             </div>
         </div>
     );

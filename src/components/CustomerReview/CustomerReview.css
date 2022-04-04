@@ -1,0 +1,10 @@
+.customer-review img {
+    width: 300px;
+}
+
+.customer-review {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
