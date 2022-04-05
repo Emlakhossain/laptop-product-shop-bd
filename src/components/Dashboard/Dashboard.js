@@ -44,8 +44,8 @@ const Dashboard = () => {
     return (
         <div >
 
-            <div className='chart'>
-                <div>
+            <div className='chart row mt-3'>
+                <div className='col-md-6 my-3'>
                     <h4>Month Wise Sales</h4>
                     <LineChart width={500} height={350} data={data}
                         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
@@ -57,7 +57,7 @@ const Dashboard = () => {
 
                     </LineChart>
                 </div>
-                <div>
+                <div className='col-md-6 my-3'>
                     <h4>Month wise Invesment Against revenue</h4>
                     <BarChart width={500} height={350} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />
@@ -68,15 +68,6 @@ const Dashboard = () => {
                         <Bar dataKey="revenue" fill="#82ca9d" />
                     </BarChart>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <PieChart>
-                        <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-
-                    </PieChart>
-                </div>
-                <div></div>
             </div>
         </div>
     );

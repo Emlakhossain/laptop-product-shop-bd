@@ -1,13 +1,9 @@
 .footer-container {
-    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 20px;
     background-color: black;
     color: whitesmoke;
     height: 200px;
     width: 100%;
-}
-
-.footer-container h4 {
-    margin: 0;
 }
