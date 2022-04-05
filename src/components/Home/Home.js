@@ -1,14 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
+import useReview from '../../hooks/useReview';
 import img from '../../img/header-img.png';
 import CustomerReview from '../CustomerReview/CustomerReview';
 import './Home.css';
 
+
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
+    const [reviews, setReviews] = useReview();
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
-            .then(data => setReviews(data))
+            .then(data => setReviews(data.slice(0, 3)))
     }, [])
 
     return (
@@ -32,8 +35,11 @@ const Home = () => {
                             key={review.id}
                             review={review}
                         ></CustomerReview>)
+
                     }
+
                 </div>
+
             </div>
         </div>
     );

@@ -1,8 +1,9 @@
 import React from 'react';
+import ReviewPage from '../ReviewPage/ReviewPage';
 import './CustomerReview.css';
 
-const CustomerReview = (props) => {
-    const { name, price, rating, img } = props.review;
+const CustomerReview = ({ review }) => {
+    const { name, price, rating, img } = review;
     return (
         <div>
 
@@ -14,6 +15,7 @@ const CustomerReview = (props) => {
                 <button>Add to cart</button>
 
             </div>
+
         </div>
     );
 };
