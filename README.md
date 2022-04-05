@@ -1,3 +1,9 @@
+* Laptop analysis website
+* live site linK : https://dainty-pika-8f2fc8.netlify.app/about
+# Notes of This projects:
+* I used this projects HTML, CSS3, Bootstrap, React Js, 
+* I i use 2 chart in my dashboard line chart and bar chart.
+* also i crying to responsive to website.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
