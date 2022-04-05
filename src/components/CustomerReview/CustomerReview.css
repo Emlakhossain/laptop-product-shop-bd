@@ -5,7 +5,12 @@
 .customer-review {
     border: 1px solid lightgray;
     padding: 10px;
-    margin: 0 auto;
+    margin: 20px;
     border-radius: 10px;
-    height: 380px;
+    height: 420px;
+}
+
+.customer-review p {
+    margin: 2px;
+    text-align: start;
 }

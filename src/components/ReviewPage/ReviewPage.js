@@ -1,13 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useReview from '../../hooks/useReview';
+import ReviewContainer from '../ReviewContainer/ReviewContainer';
+import './ReviewPage.css';
 
 const ReviewPage = (props) => {
-    console.log(props.review)
-
-
+    const [reviewPages, setReviewPages] = useState([])
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setReviewPages(data))
+    }, [])
     return (
-        <div>
-            <h2>Reviewpage</h2>
+        <div className='review-Container'>
+
+            {
+                reviewPages.map(reviewPage => <ReviewContainer
+                    key={reviewPage.id}
+                    reviewPage={reviewPage}
+                ></ReviewContainer>)
+            }
         </div>
     );
 };

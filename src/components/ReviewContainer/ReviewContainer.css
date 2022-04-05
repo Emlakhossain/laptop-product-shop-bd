@@ -1,0 +1,18 @@
+.review-details {
+    padding: 10px;
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 8px 7px 6px 10px lightgray;
+
+}
+
+.review-details p {
+    text-align: start;
+}
+
+.review-details img {
+    width: 240px;
+    padding: 5px;
+}

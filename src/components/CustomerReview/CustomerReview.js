@@ -1,9 +1,8 @@
 import React from 'react';
-import ReviewPage from '../ReviewPage/ReviewPage';
 import './CustomerReview.css';
 
 const CustomerReview = ({ review }) => {
-    const { name, price, rating, img } = review;
+    const { name, price, rating, img, customerName, comments } = review;
     return (
         <div>
 
@@ -11,8 +10,9 @@ const CustomerReview = ({ review }) => {
                 <img src={img} alt="" />
                 <h4>Name:{name}</h4>
                 <p>Price:{price}</p>
+                <p>Customer Name:{customerName}</p>
+                <p><small>Clients Feedback:{comments}</small></p>
                 <p><small>Rating:{rating}</small></p>
-                <button>Add to cart</button>
 
             </div>
 

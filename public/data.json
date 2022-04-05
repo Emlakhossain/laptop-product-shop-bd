@@ -4,41 +4,53 @@
         "name": "huawei pro avs21 Laptop",
         "img": "https://consumer-img.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp/laptops/img-0224/X-Pro-2022.png",
         "rating": 4.8,
-        "price": 106401
+        "price": 106401,
+        "customerName": "Mr. Robart",
+        "comments": "this is very good and useful products in my observation"
     },
     {
         "id": 2,
         "name": "Apple M31 Pro Laptop",
         "img": "https://icdn.digitaltrends.com/image/digitaltrends/macbook-pro-2021-16.jpg",
         "rating": 4,
-        "price": 84500
+        "price": 84500,
+        "customerName": "Elan Mask",
+        "comments": "this is very good and useful products in my observation"
     },
     {
         "id": 3,
         "name": "Apple X110 Laptop",
         "img": "https://i.pcmag.com/imagery/roundups/02naaOkVLe7DIiejFUyDPJp-31..v1588859331.jpg",
         "rating": 5,
-        "price": 67010
+        "price": 67010,
+        "customerName": "johan raw",
+        "comments": "this is very good and useful products in my observation"
     },
     {
         "id": 4,
         "name": "Asus MDN Laptop",
         "img": "https://www.mitechbox.com/wp-content/uploads/2021/11/asus-laptop.jpg",
         "rating": 4.7,
-        "price": 40405
+        "price": 40405,
+        "customerName": "mike ban",
+        "comments": "this is very good and useful products in my observation"
     },
     {
         "id": 5,
         "name": "DELL 210 Laptop",
         "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/media-gallery/peripherals_laptop_latitude_3420nt_gallery_1.psd?fmt=pjpg&pscan=auto&scl=1&wid=3319&hei=2405&qlt=100,0&resMode=sharp2&size=3319,2405",
         "rating": 4.3,
-        "price": 45900
+        "price": 45900,
+        "customerName": "Imran ahmed",
+        "comments": "this is very good and useful products in my observation"
     },
     {
         "id": 6,
         "name": "Microsoft 2021 Laptop",
         "img": "https://fdn.gsmarena.com/imgroot/news/21/09/surface-laptops/-1200/gsmarena_001.jpg",
         "rating": 5,
-        "price": 61000
+        "price": 61000,
+        "customerName": "Mim",
+        "comments": "this is very good and useful products in my observation"
     }
 ]

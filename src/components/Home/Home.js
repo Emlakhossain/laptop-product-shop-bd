@@ -1,18 +1,24 @@
+import { Button } from 'bootstrap';
 import React, { useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import img from '../../img/header-img.png';
 import CustomerReview from '../CustomerReview/CustomerReview';
+import ReviewPage from '../ReviewPage/ReviewPage';
 import './Home.css';
 
 
 const Home = () => {
     const [reviews, setReviews] = useReview();
+    const navegate = useNavigate()
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setReviews(data.slice(0, 3)))
     }, [])
+
+
 
     return (
         <div>
@@ -39,7 +45,7 @@ const Home = () => {
                     }
 
                 </div>
-
+                <button className='detail-btn' onClick={() => navegate('/reviewpage')}>Detail Review</button>
             </div>
         </div>
     );
